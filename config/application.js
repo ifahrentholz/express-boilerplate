@@ -29,7 +29,7 @@ global.App = {
 };
 
 // Middlewares
-App.app.use(logger('development'));
+App.app.use(logger('dev'));
 App.app.use(bodyParser.json());
 App.app.use(bodyParser.urlencoded({extended: false}));
 App.app.use(cookieParser());
